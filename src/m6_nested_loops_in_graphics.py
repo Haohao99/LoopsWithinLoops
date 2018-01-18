@@ -159,9 +159,7 @@ def draw_wall_on_right(rectangle, n, window):
     y2 = rectangle.corner_2.y
 
     o_Point1_x = rectangle.corner_1.x
-    o_Point1_y = rectangle.corner_1.y
     o_Point2_x = rectangle.corner_2.x
-    o_Point2_y = rectangle.corner_2.y
 
     width = rectangle.get_width()
     height = rectangle.get_height()
